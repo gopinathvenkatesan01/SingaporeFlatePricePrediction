@@ -1,7 +1,7 @@
-# Ssingapore Flat price Prediction
+# Singapore Flat price Prediction
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9daa9eec-8320-4872-975f-768df70e654a" alt="Project WorkFlow" width="790" height="700">
+  <img src="https://github.com/user-attachments/assets/9daa9eec-8320-4872-975f-768df70e654a" alt="Project WorkFlow" width="800" height="480">
  </p>
 
 **Introduction**
