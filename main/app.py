@@ -1,8 +1,6 @@
 import streamlit as st
-from datetime import date
 import pickle
 import numpy as np
-from sympy import use
 
 
 def main():
