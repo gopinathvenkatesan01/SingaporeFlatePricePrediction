@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import os
 
 
 def main():
@@ -300,7 +301,8 @@ def main():
 
         if submitted:
             try:
-                with open("models\ml_flat_price_model_1_sqrt.pkl", "rb") as f:
+                model_path = os.path.join(os.path.dirname(__file__), "models", "ml_flat_price_model_1_sqrt.pkl")
+                with open(model_path, "rb") as f:
                     model = pickle.load(f)
                     town_region = town_dict[town]
                     town_part = town_region_dict[town_region]
