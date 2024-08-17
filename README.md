@@ -61,6 +61,8 @@ To use this project, follow these steps:
 - **Outliers Handling:** Outliers have the potential to greatly influence model accuracy. To address outliers in our dataset, we employ the Interquartile Range (IQR) method. This approach entails identifying data points that lie outside the boundaries defined by the IQR and subsequently adjusting them to values that better align with the majority of the data. By applying this technique, we aim to enhance the robustness and reliability of our model predictions.
 - **Wrong Date Handling:** When encountering cases where delivery dates precede item dates in our dataset, we address this issue by calculating the time difference between them. This difference is then utilized to train a Random Forest Regressor model, allowing us to predict the corrected delivery date accurately. By implementing this approach, we ensure that our dataset maintains both integrity and accuracy, facilitating more reliable predictions in our analyses.
 
+**Deployed in Render**
+  - **SingaporeFlatPricePrediction:** [Flat Price Predictor](https://singaporeflatepriceprediction.onrender.com/)
 
 **Approach**
 
